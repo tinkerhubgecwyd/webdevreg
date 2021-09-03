@@ -323,7 +323,9 @@
                         value3: value3,
                     },
                     function (data, status) {
-                        console.log("Data Send");
+                        console.log(data, status)
+                        alert('Response Recorded')
+                        $("#submitBtn").attr('value', 'Response Recorded')
                     }
                 );
             });
