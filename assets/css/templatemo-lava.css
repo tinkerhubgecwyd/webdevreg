@@ -166,7 +166,7 @@ a.main-button {
   font-size: 14px;
   border-radius: 25px;
   padding: 15px 25px;
-  background-color: #fe5e00;
+  background-color: #f54562;
   text-transform: uppercase;
   color: #fff;
   font-weight: 600;
@@ -188,7 +188,7 @@ button.main-button {
   font-size: 14px;
   border-radius: 25px;
   padding: 15px 25px;
-  background-color: #f4813f;
+  background-color: #f45462;
   text-transform: uppercase;
   color: #fff;
   font-weight: 600;
@@ -219,7 +219,7 @@ button.main-button:hover {
 
 .center-heading h2 em {
   font-style: normal;
-  color: #0060ff;
+  color: #f54562;
 }
 
 .center-heading p {
@@ -531,10 +531,12 @@ header
 
 .header-area.header-sticky {
   min-height: 80px;
+  background-color: #27273f;
 }
 
 .header-area.header-sticky .nav {
   margin-top: 20px !important;
+  background-color: #27273f;
 }
 
 .header-area.header-sticky .nav li a.active {
@@ -606,11 +608,11 @@ header
     line-height: 50px !important;
     padding: 0px !important;
     border: none !important;
-    background: #f7f7f7 !important;
+    background: #27273f !important;
     color: #191a20 !important;
   }
   .header-area .main-nav .nav li a:hover {
-    background: #eee !important;
+    background: #27273f !important;
     color: #fba70b!important;
   }
   .header-area .main-nav .nav li.submenu ul {
@@ -986,7 +988,7 @@ footer
 footer {
   margin-top: 200px;
   padding-top: 120px;
-  background-image: url(../images/footer-bg_clrchng.png);
+  /* background-image: url(../images/footer-bg_clrchng.png); */
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1066,7 +1068,7 @@ footer .right-content {
 
 .footer-content .right-content h2 em {
   font-style: normal;
-  color: #fba70b;
+  color: #f54562;
 }
 
 .footer-content .right-content p {
