@@ -147,7 +147,7 @@ a.main-button-slider {
   font-size: 14px;
   border-radius: 25px;
   padding: 15px 25px;
-  background-color: #fe5e00;
+  background-color: #f54562;
   text-transform: uppercase;
   color: #fff;
   font-weight: 600;
@@ -685,7 +685,7 @@ welcome
 
 .welcome-area .header-text h1 em {
   font-style: normal;
-  color: #fe5e00;
+  color: #f54562;
 }
 
 .welcome-area .header-text p {
@@ -880,7 +880,7 @@ webdev
 
 #webdev .item .testimonial-content {
   background: rgb(244,129,63);
-  background: linear-gradient(145deg, #f54562 0%, #c22de1 80%);
+  background: linear-gradient(145deg, #fe5e00 10%, #c22de1 90%);
   margin-left: 60px;
   padding: 40px 30px;
   text-align: center;
