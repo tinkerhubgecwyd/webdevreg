@@ -15,7 +15,7 @@ Table of contents
 04. header
 05. welcome
 06. features
-07. testimonials
+07. webdev
 08. contact
 09. footer
 10. preloader
@@ -113,7 +113,7 @@ global styles
 */
 html,
 body {
-  background: #fff;
+  background: #202136;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -147,7 +147,7 @@ a.main-button-slider {
   font-size: 14px;
   border-radius: 25px;
   padding: 15px 25px;
-  background-color: #fba70b;
+  background-color: #fe5e00;
   text-transform: uppercase;
   color: #fff;
   font-weight: 600;
@@ -166,7 +166,7 @@ a.main-button {
   font-size: 14px;
   border-radius: 25px;
   padding: 15px 25px;
-  background-color: #f4813f;
+  background-color: #fe5e00;
   text-transform: uppercase;
   color: #fff;
   font-weight: 600;
@@ -213,7 +213,7 @@ button.main-button:hover {
   text-align: center;
   font-size: 42px;
   font-weight: 700;
-  color: #1e1e1e;
+  color: #fff;
   margin-bottom: 25px;
 }
 
@@ -278,7 +278,7 @@ header
 
 .header-area .main-nav .logo {
   line-height: 80px;
-  color: #191a20;
+  color: #fff;
   font-size: 28px;
   font-weight: 700;
   text-transform: uppercase;
@@ -680,12 +680,12 @@ welcome
   line-height: 80px;
   letter-spacing: 1px;
   margin-bottom: 30px;
-  color: #191a20;
+  color: #fff;
 }
 
 .welcome-area .header-text h1 em {
   font-style: normal;
-  color: #0060ff;
+  color: #fe5e00;
 }
 
 .welcome-area .header-text p {
@@ -766,6 +766,7 @@ about
   border-radius: 5px;
   padding: 60px 30px;
   text-align: center;
+  background-color: #27273f;
   box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
 }
 
@@ -789,7 +790,7 @@ about
 .features-item h4 {
   margin-top: 0px;
   font-size: 22px;
-  color: #1e1e1e;
+  color: #fff;
   margin-bottom: 25px;
 }
 
@@ -806,7 +807,7 @@ promotion
 */
 
 .left-image-decor {
-  background-image: url(../images/left-bg-decor_clrchng.png);
+  /* background-image: url(../images/left-bg-decor_clrchng.png); */
   background-repeat: no-repeat;
   position: absolute;
   width: 100%;
@@ -853,11 +854,11 @@ promotion
 
 /*
 --------------------------------------------
-testimonials
+webdev
 --------------------------------------------
 */
 .right-image-decor {
-  background-image: url(../images/right-bg-decor_clrchng.png);
+  /* background-image: url(../images/right-bg-decor_clrchng.png); */
   background-repeat: no-repeat;
   background-position: right center;
   position: absolute;
@@ -867,55 +868,55 @@ testimonials
   margin-top: -200px;
 }
 
-#testimonials {
+#webdev {
   padding-top: 100px;
   position: relative;
   z-index: 9;
 }
 
-#testimonials .item {
+#webdev .item {
   position: relative;
 }
 
-#testimonials .item .testimonial-content {
+#webdev .item .testimonial-content {
   background: rgb(244,129,63);
-  background: linear-gradient(145deg, rgba(244,129,63,1) 0%, rgba(241,85,106,1) 100%);
+  background: linear-gradient(145deg, #f54562 0%, #c22de1 80%);
   margin-left: 60px;
   padding: 40px 30px;
   text-align: center;
   border-radius: 5px;
 }
 
-#testimonials .item .testimonial-content ul li {
+#webdev .item .testimonial-content ul li {
   display: inline-block;
   margin: 0px 1px;
 }
 
-#testimonials .item .testimonial-content ul li i {
+#webdev .item .testimonial-content ul li i {
   color: #fff;
   font-size: 13px;
 }
 
-#testimonials .item .testimonial-content h4 {
+#webdev .item .testimonial-content h4 {
   font-size: 22px;
   margin-top: 20px;
   color: #fff;
 }
 
-#testimonials .item .testimonial-content p {
+#webdev .item .testimonial-content p {
   color: #fff;
   font-style: italic;
   font-weight: 200;
   margin: 20px 0px 15px 0px;
 }
 
-#testimonials .item .testimonial-content span {
+#webdev .item .testimonial-content span {
   color: #fff;
   font-weight: 200;
   font-size: 13px;
 }
 
-#testimonials .author img {
+#webdev .author img {
   max-width: 120px;
   margin-bottom: -60px;
 }
